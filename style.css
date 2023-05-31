@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(218, 221, 216);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.name, .titulo-sessao {
+    font-family: 'Poppins', sans-serif;
+}
+
+strong {
+    color: rgb(28, 28, 28)
+}
+
+#name {
+    text-align: center;
+    font-size: xx-large
+}
+
+#index {
+    font-size: larger;
+}
+
+.subtitulo-sessao {
+    font-size: large
+}
+
+p {
+    font-size: medium;
+}
