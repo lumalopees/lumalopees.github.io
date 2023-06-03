@@ -1,6 +1,7 @@
 body {
     background-color: rgb(218, 221, 216);
     font-family: 'Montserrat', sans-serif;
+    padding: 2%;
 }
 
 .name, .titulo-sessao {
@@ -21,9 +22,35 @@ strong {
 }
 
 .subtitulo-sessao {
-    font-size: large
+    font-size: large;
+    margin: 30px;
 }
 
 p {
     font-size: medium;
+}
+
+#minha-foto {
+    float: left;
+    height: 380px;
+    width: 380px;
+    padding: 10px;
+    background-color: rgb(28, 28, 28);
+}
+
+.image-container {
+    height: 400px;
+    position: relative;
+}
+
+.descricao {
+    padding-left: 25%;
+}
+
+#sobre-mim {
+    padding-left: 25%;
+}
+
+ul li:nth-child(odd) {
+    background-color:rgb(194, 188, 182)
 }
